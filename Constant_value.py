@@ -5,6 +5,8 @@ def solution(input_string):
     current_value = 0
     max_value = 0
     
+
+# "Creating a way to find the biggest value in parts of the word"
     for character in input_string:
         if character in consonant_values:
             current_value += consonant_values[character]
@@ -12,4 +14,10 @@ def solution(input_string):
             max_value = max(max_value, current_value)
             current_value = 0
     
-    max_value = max(max_value, current_value)
+            max_value = max(max_value, current_value)
+
+            return max_value
+
+# Test cases
+print(solution("zodiacs"))   # Output: 26
+print(solution("strength"))  # Output: 57
