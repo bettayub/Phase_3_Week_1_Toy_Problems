@@ -26,3 +26,6 @@ test_cases = [
 for hour, minute, period in test_cases:
     converted_time = my_time_to_24hr(hour, minute, period)
     print(f"{hour:02d}:{minute:02d} {period.upper()} -> {converted_time}")
+
+    # how to run
+    # python3 Time.py
