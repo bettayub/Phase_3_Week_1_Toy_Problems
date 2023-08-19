@@ -19,5 +19,8 @@ def solution(input_string):
             return max_value
 
 # Test cases
-print(solution("zodiacs"))   # Output: 26
-print(solution("strength"))  # Output: 57
+print(solution("hello"))   # Output: 8
+print(solution("software"))  # Output: 19
+
+#how to run
+#$ python3 Constant_value.py
