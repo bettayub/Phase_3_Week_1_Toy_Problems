@@ -9,3 +9,5 @@ def my_time_to_24hr(hour, minute, period):
             hour_24 = 12
         else:
             hour_24 = hour + 12
+    
+    return f"{hour_24:02d}{minute:02d}"
