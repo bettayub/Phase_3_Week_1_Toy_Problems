@@ -97,7 +97,7 @@ Github
 
 ```
 
-https://github.com/bettayub/Code_Challenge_Bot_Battlr
+git@github.com:bettayub/Phase_3_Week_1_Toy_Problems.git
 cd path/to/your/directory
 git clone repository_url
 cd repository_name
