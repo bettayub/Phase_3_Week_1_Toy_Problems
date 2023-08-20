@@ -97,11 +97,18 @@ Github
 
 ```
 
+
+
 git@github.com:bettayub/Phase_3_Week_1_Toy_Problems.git
 cd path/to/your/directory
 git clone repository_url
 cd repository_name
-pip install -r requirements.txt
+
+Install the required dependencies:
+pipenv --python 3.10
+pipenv install
+pipenv shell
+
 python3 Time.py
 python3 Constant_value.py
 python3 Numbers.py
