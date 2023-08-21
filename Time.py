@@ -1,4 +1,4 @@
-def my_time_to_24hr(hour, minute, period):
+def my_time_to_24hr(hour, minute, period): #defining a function
     if period == "am":
         if hour == 12:
             hour_24 = 0

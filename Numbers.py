@@ -1,4 +1,4 @@
-def two_positive_numbers(a, b, c):
+def two_positive_numbers(a, b, c): #defining a function
     positives = [num for num in (a, b, c) if num > 0]
     return len(positives) == 2
 
